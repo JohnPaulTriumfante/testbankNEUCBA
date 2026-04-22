@@ -3,3 +3,4 @@ Flask-WTF
 Werkzeug
 reportlab
 python-docx
+gunicorn

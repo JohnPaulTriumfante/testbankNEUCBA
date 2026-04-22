@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank System v2 - Mode Selector</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a2332;
+            --accent: #0d7377;
+            --light-accent: #14a085;
+        }
+        
+        body {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .container-center {
+            width: 100%;
+            max-width: 900px;
+            padding: 20px;
+        }
+        
+        .header-title {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+        
+        .header-title h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .header-title p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .mode-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .mode-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 350px;
+        }
+        
+        .mode-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+        
+        .mode-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .mode-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .mode-description {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+        
+        .review-card {
+            border-top: 4px solid var(--accent);
+        }
+        
+        .exam-card {
+            border-top: 4px solid #ff6b6b;
+        }
+        
+        .btn-mode {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-mode:hover {
+            background: var(--light-accent);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .exam-card .btn-mode {
+            background: #ff6b6b;
+        }
+        
+        .exam-card .btn-mode:hover {
+            background: #ee5a52;
+        }
+        
+        .admin-link {
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .admin-link a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+        
+        .admin-link a:hover {
+            opacity: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .mode-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header-title h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-center">
+        <div class="header-title">
+            <h1>📚 Test Bank System</h1>
+            <p>Choose how you want to study</p>
+        </div>
+        
+        <div class="mode-grid">
+            <!-- REVIEW MODE -->
+            <div class="mode-card review-card">
+                <div>
+                    <div class="mode-icon">🎓</div>
+                    <h2 class="mode-title">REVIEW Mode</h2>
+                    <p class="mode-description">
+                        Practice and review questions with immediate feedback
+                    </p>
+                </div>
+                <a href="/review" class="btn-mode">Start Review</a>
+            </div>
+            
+            <!-- EXAM MODE -->
+            <div class="mode-card exam-card">
+                <div>
+                    <div class="mode-icon">⏱️</div>
+                    <h2 class="mode-title">EXAM Mode</h2>
+                    <p class="mode-description">
+                        Take a timed exam with scoring and feedback at the end
+                    </p>
+                </div>
+                <a href="/exam" class="btn-mode">Take Exam</a>
+            </div>
+        </div>
+        
+        <div class="admin-link">
+            <a href="/admin/login">🔐 Admin Panel</a>
+        </div>
+    </div>
+</body>
+</html>

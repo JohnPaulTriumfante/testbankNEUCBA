@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Mode - Test Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a2332;
+            --accent: #0d7377;
+            --light-accent: #14a085;
+            --correct: #28a745;
+            --incorrect: #dc3545;
+        }
+        
+        body {
+            background: #f5f5f5;
+            padding: 20px 0;
+        }
+        
+        .review-header {
+            background: var(--primary);
+            color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .review-header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        
+        .review-header p {
+            margin: 5px 0 0 0;
+            opacity: 0.9;
+        }
+        
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .timer-display {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #856404;
+        }
+        
+        .timer-display.critical {
+            background: #f8d7da;
+            border-left-color: #dc3545;
+            color: #721c24;
+        }
+        
+        .question-number {
+            color: var(--accent);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .question-text {
+            font-size: 1.1rem;
+            color: var(--primary);
+            margin-bottom: 25px;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+        
+        .choices-container {
+            margin-bottom: 25px;
+        }
+        
+        .choice-button {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 10px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+        
+        .choice-button:hover {
+            border-color: var(--accent);
+            background: #f9f9f9;
+        }
+        
+        .choice-button.selected {
+            border-color: var(--accent);
+            background: #e8f5f4;
+        }
+        
+        .choice-button input[type="radio"] {
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        
+        .choice-label {
+            flex: 1;
+        }
+        
+        .choice-label-letter {
+            font-weight: 700;
+            color: var(--accent);
+            margin-right: 10px;
+        }
+        
+        .answer-reveal {
+            background: #f9f9f9;
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            border-radius: 6px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .answer-reveal.show {
+            display: block;
+        }
+        
+        .answer-reveal h5 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .correct-answer {
+            color: var(--correct);
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .explanation {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .buttons-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+        }
+        
+        .btn-submit {
+            background: var(--accent);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            flex: 1;
+            transition: background 0.3s ease;
+        }
+        
+        .btn-submit:hover {
+            background: var(--light-accent);
+        }
+        
+        .btn-next {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            flex: 1;
+            transition: background 0.3s ease;
+        }
+        
+        .btn-next:hover {
+            background: #0d1420;
+        }
+        
+        .results-summary {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .results-summary h4 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .result-item {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .result-item.correct {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .result-item.incorrect {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .review-complete {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .review-complete h2 {
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .review-header h1 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="review-header">
+        <h1>📖 Review Mode</h1>
+        <p>{{ session.chapter.chapter_number }}: {{ session.chapter.chapter_title }}</p>
+        <div class="progress-info">
+            <span>Questions: {{ session.questions|length }}</span>
+            <span id="progressText">Question 1 of {{ session.questions|length }}</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div id="reviewContent">
+            <div class="question-number" id="questionNum">Question 1</div>
+            <div class="question-text" id="questionText"></div>
+            
+            <div class="choices-container" id="choicesContainer"></div>
+            <div id="descriptiveContainer" style="display: none; margin-bottom: 25px;">
+                <textarea id="descriptiveAnswer" class="form-control" style="border-color: var(--accent);" placeholder="Type your answer here..." rows="5"></textarea>
+            </div>
+            
+            <div class="answer-reveal" id="answerReveal">
+                <h5>📋 Answer</h5>
+                <div id="answerContent"></div>
+            </div>
+            
+            <div class="buttons-container">
+                <button class="btn-submit" id="submitBtn" onclick="submitAnswer()">Submit Answer</button>
+                <button class="btn-next" id="nextBtn" onclick="nextQuestion()" style="display: none;">Next Question →</button>
+            </div>
+        </div>
+        
+        <div id="reviewComplete" style="display: none;">
+            <div class="review-complete">
+                <h2>🎉 Review Complete!</h2>
+                <p>You've reviewed all questions.</p>
+                <a href="/" class="btn btn-primary btn-lg">Back to Home</a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let currentQuestionIndex = 0;
+        let answered = false;
+        const session = {{ session|tojson }};
+        
+        function initQuestion() {
+            const question = session.questions[currentQuestionIndex];
+            
+            // Update header
+            document.getElementById('progressText').textContent = 
+                `Question ${currentQuestionIndex + 1} of ${session.questions.length}`;
+            document.getElementById('questionNum').textContent = 
+                `Question ${currentQuestionIndex + 1}`;
+            document.getElementById('questionText').textContent = question.question_text;
+            
+            // Clear previous content
+            const choicesContainer = document.getElementById('choicesContainer');
+            const descriptiveContainer = document.getElementById('descriptiveContainer');
+            choicesContainer.innerHTML = '';
+            descriptiveContainer.style.display = 'none';
+            
+            if (question.question_type === 'multiple_choice') {
+                // Multiple choice question
+                question.choices.forEach(choice => {
+                    const label = document.createElement('label');
+                    label.className = 'choice-button';
+                    label.innerHTML = `
+                        <input type="radio" name="choice" value="${choice.choice_label}">
+                        <div class="choice-label">
+                            <span class="choice-label-letter">${choice.choice_label}.</span>
+                            <span>${choice.choice_text}</span>
+                        </div>
+                    `;
+                    label.onclick = function() {
+                        document.querySelectorAll('.choice-button').forEach(btn => btn.classList.remove('selected'));
+                        label.classList.add('selected');
+                    };
+                    choicesContainer.appendChild(label);
+                });
+            } else {
+                // Descriptive question
+                descriptiveContainer.style.display = 'block';
+                document.getElementById('descriptiveAnswer').value = '';
+            }
+            
+            // Reset answer reveal
+            document.getElementById('answerReveal').classList.remove('show');
+            document.getElementById('submitBtn').style.display = 'block';
+            document.getElementById('nextBtn').style.display = 'none';
+            answered = false;
+        }
+        
+        function submitAnswer() {
+            const question = session.questions[currentQuestionIndex];
+            
+            // Reveal answer
+            const answerContent = document.getElementById('answerContent');
+            answerContent.innerHTML = '';
+            
+            if (question.question_type === 'multiple_choice') {
+                const selected = document.querySelector('input[name="choice"]:checked');
+                const correctLetter = question.correct_choice;
+                
+                const correctAnswerDiv = document.createElement('div');
+                correctAnswerDiv.className = 'correct-answer';
+                correctAnswerDiv.innerHTML = `Correct Answer: <strong>${correctLetter}</strong>`;
+                answerContent.appendChild(correctAnswerDiv);
+                
+                if (question.explanation) {
+                    const explanationDiv = document.createElement('div');
+                    explanationDiv.className = 'explanation';
+                    explanationDiv.textContent = question.explanation;
+                    answerContent.appendChild(explanationDiv);
+                }
+            } else {
+                // Descriptive question
+                const userAnswer = document.getElementById('descriptiveAnswer').value;
+                
+                const userAnswerDiv = document.createElement('div');
+                userAnswerDiv.style.marginBottom = '15px';
+                userAnswerDiv.innerHTML = `
+                    <div style="font-weight: 600; color: var(--primary); margin-bottom: 8px;">Your Answer:</div>
+                    <div style="background: white; padding: 12px; border-radius: 6px; border-left: 2px solid var(--accent);">
+                        ${userAnswer || '<em style="color: #999;">No answer provided</em>'}
+                    </div>
+                `;
+                answerContent.appendChild(userAnswerDiv);
+                
+                const modelAnswerDiv = document.createElement('div');
+                modelAnswerDiv.innerHTML = `
+                    <div style="font-weight: 600; color: var(--primary); margin-bottom: 8px;">📖 Model Answer:</div>
+                    <div style="background: white; padding: 12px; border-radius: 6px; border-left: 2px solid var(--correct);">
+                        ${question.correct_choice}
+                    </div>
+                `;
+                answerContent.appendChild(modelAnswerDiv);
+                
+                if (question.explanation) {
+                    const explanationDiv = document.createElement('div');
+                    explanationDiv.className = 'explanation';
+                    explanationDiv.style.marginTop = '15px';
+                    explanationDiv.innerHTML = `<strong>Explanation:</strong><br>${question.explanation}`;
+                    answerContent.appendChild(explanationDiv);
+                }
+            }
+            
+            document.getElementById('answerReveal').classList.add('show');
+            document.getElementById('submitBtn').style.display = 'none';
+            document.getElementById('nextBtn').style.display = 'block';
+            answered = true;
+        }
+        
+        function nextQuestion() {
+            currentQuestionIndex++;
+            
+            if (currentQuestionIndex >= session.questions.length) {
+                document.getElementById('reviewContent').style.display = 'none';
+                document.getElementById('reviewComplete').style.display = 'block';
+            } else {
+                initQuestion();
+            }
+        }
+        
+        // Initialize first question
+        initQuestion();
+    </script>
+</body>
+</html>

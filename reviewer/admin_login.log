@@ -1,0 +1,961 @@
+2026-04-20 20:48:55,968 - WARNING -  * Debugger is active!
+2026-04-20 20:48:55,973 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 20:56:23,884 - INFO -  * Detected change in 'C:\\Users\\Lance\\testbanksystem\\testbanksystem_v2\\app.py', reloading
+2026-04-20 20:56:24,509 - WARNING -  * Debugger is active!
+2026-04-20 20:56:24,514 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 20:56:32,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-20 20:56:32,113 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 20:56:32,119 - INFO -  * Restarting with stat
+2026-04-20 20:56:32,746 - WARNING -  * Debugger is active!
+2026-04-20 20:56:32,757 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 20:59:09,611 - INFO - 127.0.0.1 - - [20/Apr/2026 20:59:09] "GET /admin/login HTTP/1.1" 200 -
+2026-04-20 21:02:06,117 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:06] "GET /admin/login HTTP/1.1" 200 -
+2026-04-20 21:02:18,793 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-20 21:02:18,793 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:18] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-20 21:02:18,805 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:18] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 21:02:24,652 - INFO - Admin logout: IP=127.0.0.1
+2026-04-20 21:02:24,653 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:24] "[32mGET /admin/logout HTTP/1.1[0m" 302 -
+2026-04-20 21:02:24,663 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:24] "GET / HTTP/1.1" 200 -
+2026-04-20 21:02:27,885 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:27] "GET /admin/login HTTP/1.1" 200 -
+2026-04-20 21:02:29,264 - INFO - Admin login FAILED: IP=127.0.0.1
+2026-04-20 21:02:29,265 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:29] "POST /admin/login HTTP/1.1" 200 -
+2026-04-20 21:02:33,783 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:33] "GET / HTTP/1.1" 200 -
+2026-04-20 21:02:36,657 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:36] "GET /admin/login HTTP/1.1" 200 -
+2026-04-20 21:02:41,406 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-20 21:02:41,407 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:41] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-20 21:02:41,415 - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:41] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 21:35:57,814 - INFO - 127.0.0.1 - - [20/Apr/2026 21:35:57] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-20 21:36:42,733 - INFO - 127.0.0.1 - - [20/Apr/2026 21:36:42] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-20 21:37:43,706 - INFO - 127.0.0.1 - - [20/Apr/2026 21:37:43] "GET / HTTP/1.1" 200 -
+2026-04-20 21:37:45,092 - INFO - 127.0.0.1 - - [20/Apr/2026 21:37:45] "GET /admin/login HTTP/1.1" 200 -
+2026-04-20 21:37:48,836 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-20 21:37:48,837 - INFO - 127.0.0.1 - - [20/Apr/2026 21:37:48] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-20 21:37:48,846 - INFO - 127.0.0.1 - - [20/Apr/2026 21:37:48] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 21:39:01,928 - INFO -  * Detected change in 'C:\\Users\\Lance\\testbanksystem\\testbanksystem_v2\\app.py', reloading
+2026-04-20 21:39:02,095 - INFO -  * Restarting with stat
+2026-04-20 21:39:03,060 - WARNING -  * Debugger is active!
+2026-04-20 21:39:03,066 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 21:42:23,956 - INFO -  * Detected change in 'C:\\Users\\Lance\\testbanksystem\\testbanksystem_v2\\app.py', reloading
+2026-04-20 21:42:23,999 - INFO -  * Restarting with stat
+2026-04-20 21:42:24,570 - WARNING -  * Debugger is active!
+2026-04-20 21:42:24,577 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 21:42:27,395 - INFO - 127.0.0.1 - - [20/Apr/2026 21:42:27] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 21:42:28,776 - INFO - 127.0.0.1 - - [20/Apr/2026 21:42:28] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 21:42:31,608 - INFO - 127.0.0.1 - - [20/Apr/2026 21:42:31] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 21:43:20,338 - INFO - 127.0.0.1 - - [20/Apr/2026 21:43:20] "POST /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 21:43:22,760 - INFO - 127.0.0.1 - - [20/Apr/2026 21:43:22] "GET /admin/questions/1 HTTP/1.1" 200 -
+2026-04-20 22:06:44,046 - INFO - 127.0.0.1 - - [20/Apr/2026 22:06:44] "GET /admin/questions/1 HTTP/1.1" 200 -
+2026-04-20 22:06:47,529 - INFO - 127.0.0.1 - - [20/Apr/2026 22:06:47] "GET /admin/questions/1 HTTP/1.1" 200 -
+2026-04-20 22:06:48,476 - INFO - 127.0.0.1 - - [20/Apr/2026 22:06:48] "GET /admin/questions/1 HTTP/1.1" 200 -
+2026-04-20 22:23:44,717 - INFO -  * Detected change in 'C:\\Users\\Lance\\testbanksystem\\testbanksystem_v2\\database.py', reloading
+2026-04-20 22:23:44,890 - INFO -  * Restarting with stat
+2026-04-20 22:23:45,663 - WARNING -  * Debugger is active!
+2026-04-20 22:23:45,669 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 22:23:49,835 - INFO -  * Detected change in 'C:\\Users\\Lance\\testbanksystem\\testbanksystem_v2\\database.py', reloading
+2026-04-20 22:23:49,887 - INFO -  * Restarting with stat
+2026-04-20 22:23:50,480 - WARNING -  * Debugger is active!
+2026-04-20 22:23:50,485 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 22:24:14,655 - INFO -  * Detected change in 'C:\\Users\\Lance\\testbanksystem\\testbanksystem_v2\\app.py', reloading
+2026-04-20 22:24:14,779 - INFO -  * Restarting with stat
+2026-04-20 22:39:17,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-20 22:39:17,675 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 22:39:17,677 - INFO -  * Restarting with stat
+2026-04-20 22:39:18,182 - WARNING -  * Debugger is active!
+2026-04-20 22:39:18,186 - INFO -  * Debugger PIN: 242-425-742
+2026-04-20 22:39:48,050 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-20 22:39:48,050 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 22:39:48,051 - INFO -  * Restarting with stat
+2026-04-20 22:39:48,587 - WARNING -  * Debugger is active!
+2026-04-20 22:39:48,592 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 22:40:02,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-20 22:40:02,203 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 22:40:02,205 - INFO -  * Restarting with stat
+2026-04-20 22:40:02,746 - WARNING -  * Debugger is active!
+2026-04-20 22:40:02,752 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 23:08:35,887 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-20 23:08:35,887 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:08:35,889 - INFO -  * Restarting with stat
+2026-04-20 23:08:36,421 - WARNING -  * Debugger is active!
+2026-04-20 23:08:36,426 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 23:12:49,791 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-20 23:12:49,791 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:12:49,793 - INFO -  * Restarting with stat
+2026-04-20 23:12:50,380 - WARNING -  * Debugger is active!
+2026-04-20 23:12:50,386 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 23:17:01,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-20 23:17:01,995 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:17:01,996 - INFO -  * Restarting with stat
+2026-04-20 23:17:02,515 - WARNING -  * Debugger is active!
+2026-04-20 23:17:02,521 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 23:17:32,235 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-20 23:17:32,236 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:17:32,236 - INFO -  * Restarting with stat
+2026-04-20 23:17:32,763 - WARNING -  * Debugger is active!
+2026-04-20 23:17:32,768 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 23:18:08,747 - INFO -  * Detected change in 'C:\\Users\\Lance\\testbanksystem\\testbanksystem_v2\\app.py', reloading
+2026-04-20 23:18:08,850 - INFO -  * Restarting with stat
+2026-04-20 23:18:09,677 - WARNING -  * Debugger is active!
+2026-04-20 23:18:09,684 - INFO -  * Debugger PIN: 431-330-718
+2026-04-20 23:18:56,227 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 23:18:56,227 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:19:34,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 23:19:34,892 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:22:38,368 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 23:22:38,368 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:22:45,078 - INFO - 127.0.0.1 - - [20/Apr/2026 23:22:45] "GET / HTTP/1.1" 200 -
+2026-04-20 23:23:04,031 - INFO - 127.0.0.1 - - [20/Apr/2026 23:23:04] "[33mGET /chapters HTTP/1.1[0m" 404 -
+2026-04-20 23:23:10,619 - INFO - 127.0.0.1 - - [20/Apr/2026 23:23:10] "GET / HTTP/1.1" 200 -
+2026-04-20 23:26:10,646 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 23:26:10,646 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:31:19,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 23:31:19,489 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:37:57,467 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 23:37:57,467 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:42:09,278 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 23:42:09,278 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:42:36,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-20 23:42:36,616 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:45:01,384 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-04-20 23:45:01,384 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:45:08,479 - INFO - 127.0.0.1 - - [20/Apr/2026 23:45:08] "GET / HTTP/1.1" 200 -
+2026-04-20 23:45:41,366 - INFO - 127.0.0.1 - - [20/Apr/2026 23:45:41] "GET /admin/login HTTP/1.1" 200 -
+2026-04-20 23:45:44,773 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-20 23:45:44,774 - INFO - 127.0.0.1 - - [20/Apr/2026 23:45:44] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-20 23:45:44,800 - INFO - 127.0.0.1 - - [20/Apr/2026 23:45:44] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:46:23,462 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:23] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:46:26,647 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:26] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:46:29,083 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:29] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:46:45,559 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:45] "POST /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:46:46,756 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:46] "[35m[1mGET /admin/question_groups/1 HTTP/1.1[0m" 500 -
+2026-04-20 23:46:47,005 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:47] "GET /admin/question_groups/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-04-20 23:46:47,009 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:47] "GET /admin/question_groups/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-04-20 23:46:47,033 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:47] "GET /admin/question_groups/1?__debugger__=yes&cmd=resource&f=console.png&s=ssABlGTrQq4VFzHEFHkm HTTP/1.1" 200 -
+2026-04-20 23:46:47,047 - INFO - 127.0.0.1 - - [20/Apr/2026 23:46:47] "GET /admin/question_groups/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-04-20 23:48:57,645 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-04-20 23:48:57,645 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 23:49:51,505 - INFO - 127.0.0.1 - - [20/Apr/2026 23:49:51] "[32mPOST /admin/chapters/1 HTTP/1.1[0m" 302 -
+2026-04-20 23:49:51,530 - INFO - 127.0.0.1 - - [20/Apr/2026 23:49:51] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:49:56,708 - INFO - 127.0.0.1 - - [20/Apr/2026 23:49:56] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:49:59,859 - INFO - 127.0.0.1 - - [20/Apr/2026 23:49:59] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:50:06,118 - INFO - 127.0.0.1 - - [20/Apr/2026 23:50:06] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:50:15,238 - INFO - 127.0.0.1 - - [20/Apr/2026 23:50:15] "POST /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:50:16,004 - INFO - 127.0.0.1 - - [20/Apr/2026 23:50:16] "GET /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-20 23:50:51,279 - INFO - Admin logout: IP=127.0.0.1
+2026-04-20 23:50:51,280 - INFO - 127.0.0.1 - - [20/Apr/2026 23:50:51] "[32mGET /admin/logout HTTP/1.1[0m" 302 -
+2026-04-20 23:50:51,288 - INFO - 127.0.0.1 - - [20/Apr/2026 23:50:51] "GET / HTTP/1.1" 200 -
+2026-04-20 23:50:53,770 - INFO - 127.0.0.1 - - [20/Apr/2026 23:50:53] "GET /admin/login HTTP/1.1" 200 -
+2026-04-20 23:50:57,998 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-20 23:50:57,998 - INFO - 127.0.0.1 - - [20/Apr/2026 23:50:57] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-20 23:50:58,004 - INFO - 127.0.0.1 - - [20/Apr/2026 23:50:58] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:51:02,784 - INFO - 127.0.0.1 - - [20/Apr/2026 23:51:02] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:51:05,055 - INFO - 127.0.0.1 - - [20/Apr/2026 23:51:05] "GET /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-20 23:51:24,185 - INFO - 127.0.0.1 - - [20/Apr/2026 23:51:24] "POST /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-20 23:51:25,922 - INFO - 127.0.0.1 - - [20/Apr/2026 23:51:25] "GET /admin/questions/1 HTTP/1.1" 200 -
+2026-04-20 23:51:55,398 - INFO - 127.0.0.1 - - [20/Apr/2026 23:51:55] "POST /admin/questions/1 HTTP/1.1" 200 -
+2026-04-20 23:52:10,966 - INFO - 127.0.0.1 - - [20/Apr/2026 23:52:10] "GET /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-20 23:52:12,734 - INFO - 127.0.0.1 - - [20/Apr/2026 23:52:12] "GET /admin/questions/1 HTTP/1.1" 200 -
+2026-04-20 23:52:38,989 - INFO - 127.0.0.1 - - [20/Apr/2026 23:52:38] "GET / HTTP/1.1" 200 -
+2026-04-20 23:52:40,236 - INFO - 127.0.0.1 - - [20/Apr/2026 23:52:40] "GET /admin/login HTTP/1.1" 200 -
+2026-04-20 23:52:43,696 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-20 23:52:43,696 - INFO - 127.0.0.1 - - [20/Apr/2026 23:52:43] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-20 23:52:43,702 - INFO - 127.0.0.1 - - [20/Apr/2026 23:52:43] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:54:14,198 - INFO - 127.0.0.1 - - [20/Apr/2026 23:54:14] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:54:17,530 - INFO - 127.0.0.1 - - [20/Apr/2026 23:54:17] "GET /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-20 23:54:23,663 - INFO - 127.0.0.1 - - [20/Apr/2026 23:54:23] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:54:24,520 - INFO - 127.0.0.1 - - [20/Apr/2026 23:54:24] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:57:36,169 - INFO - 127.0.0.1 - - [20/Apr/2026 23:57:36] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:57:42,520 - INFO - 127.0.0.1 - - [20/Apr/2026 23:57:42] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:57:48,006 - INFO - 127.0.0.1 - - [20/Apr/2026 23:57:48] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:57:57,873 - INFO - 127.0.0.1 - - [20/Apr/2026 23:57:57] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:58:22,864 - INFO - 127.0.0.1 - - [20/Apr/2026 23:58:22] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:58:31,949 - INFO - 127.0.0.1 - - [20/Apr/2026 23:58:31] "GET /admin/chapters/2 HTTP/1.1" 200 -
+2026-04-20 23:58:44,551 - INFO - 127.0.0.1 - - [20/Apr/2026 23:58:44] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-20 23:58:46,981 - INFO - 127.0.0.1 - - [20/Apr/2026 23:58:46] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-20 23:58:48,594 - INFO - 127.0.0.1 - - [20/Apr/2026 23:58:48] "GET /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-20 23:59:16,146 - INFO - 127.0.0.1 - - [20/Apr/2026 23:59:16] "POST /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-20 23:59:17,970 - INFO - 127.0.0.1 - - [20/Apr/2026 23:59:17] "GET /admin/questions/2 HTTP/1.1" 200 -
+2026-04-21 00:00:26,586 - INFO - 127.0.0.1 - - [21/Apr/2026 00:00:26] "POST /admin/questions/2 HTTP/1.1" 200 -
+2026-04-21 00:02:14,133 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:14] "POST /admin/questions/2 HTTP/1.1" 200 -
+2026-04-21 00:02:18,169 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:18] "[33mGET /api/question/3 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:19,039 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:19] "[33mGET /api/question/3 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:19,819 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:19] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:20,074 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:20] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:20,249 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:20] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:20,428 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:20] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:20,877 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:20] "[33mGET /api/question/3 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:21,075 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:21] "[33mGET /api/question/3 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:25,247 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:25] "POST /admin/questions/2 HTTP/1.1" 200 -
+2026-04-21 00:02:27,177 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:27] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:33,410 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:33] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-21 00:02:37,213 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:37] "GET /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-21 00:02:41,442 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:41] "GET /admin/questions/2 HTTP/1.1" 200 -
+2026-04-21 00:02:42,918 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:42] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:43,184 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:43] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:43,332 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:43] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:43,573 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:43] "[33mGET /api/question/2 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:50,896 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:50] "GET /admin/questions/1 HTTP/1.1" 200 -
+2026-04-21 00:02:52,666 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:52] "[33mGET /api/question/1 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:52,984 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:52] "[33mGET /api/question/1 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:53,148 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:53] "[33mGET /api/question/1 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:53,306 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:53] "[33mGET /api/question/1 HTTP/1.1[0m" 404 -
+2026-04-21 00:02:53,449 - INFO - 127.0.0.1 - - [21/Apr/2026 00:02:53] "[33mGET /api/question/1 HTTP/1.1[0m" 404 -
+2026-04-21 00:03:56,138 - INFO - 127.0.0.1 - - [21/Apr/2026 00:03:56] "GET /admin/questions/1 HTTP/1.1" 200 -
+2026-04-21 00:04:16,734 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-04-21 00:04:16,735 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 00:04:26,147 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:26] "GET / HTTP/1.1" 200 -
+2026-04-21 00:04:27,712 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:27] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 00:04:30,259 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 00:04:30,260 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:30] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 00:04:30,271 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:30] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 00:04:34,426 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:34] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-21 00:04:36,049 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:36] "GET /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-21 00:04:39,369 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:39] "GET /admin/questions/2 HTTP/1.1" 200 -
+2026-04-21 00:04:40,728 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:40] "GET /api/question/2 HTTP/1.1" 200 -
+2026-04-21 00:04:43,914 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:43] "POST /admin/questions/2 HTTP/1.1" 200 -
+2026-04-21 00:04:53,456 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:53] "GET / HTTP/1.1" 200 -
+2026-04-21 00:04:55,959 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:55] "GET /review HTTP/1.1" 200 -
+2026-04-21 00:04:57,902 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:57] "GET /api/topics/1 HTTP/1.1" 200 -
+2026-04-21 00:04:59,739 - INFO - 127.0.0.1 - - [21/Apr/2026 00:04:59] "GET /api/chapters/1 HTTP/1.1" 200 -
+2026-04-21 00:05:07,274 - INFO - The CSRF token is missing.
+2026-04-21 00:05:07,274 - INFO - 127.0.0.1 - - [21/Apr/2026 00:05:07] "[31m[1mPOST /review/start HTTP/1.1[0m" 400 -
+2026-04-21 00:07:00,388 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:00] "GET /review HTTP/1.1" 200 -
+2026-04-21 00:07:05,905 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:05] "GET /review HTTP/1.1" 200 -
+2026-04-21 00:07:09,090 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:09] "GET /api/topics/1 HTTP/1.1" 200 -
+2026-04-21 00:07:10,822 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:10] "GET /api/chapters/1 HTTP/1.1" 200 -
+2026-04-21 00:07:21,120 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:21] "POST /review/start HTTP/1.1" 200 -
+2026-04-21 00:07:37,587 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:37] "GET / HTTP/1.1" 200 -
+2026-04-21 00:07:45,504 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:45] "GET /exam HTTP/1.1" 200 -
+2026-04-21 00:07:56,986 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:56] "GET /api/topics/1 HTTP/1.1" 200 -
+2026-04-21 00:07:58,455 - INFO - 127.0.0.1 - - [21/Apr/2026 00:07:58] "GET /api/chapters/1 HTTP/1.1" 200 -
+2026-04-21 00:08:03,225 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:03] "POST /exam/start HTTP/1.1" 200 -
+2026-04-21 00:08:15,067 - INFO - The CSRF token is missing.
+2026-04-21 00:08:15,067 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:15] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:25,487 - INFO - The CSRF token is missing.
+2026-04-21 00:08:25,487 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:25] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:25,997 - INFO - The CSRF token is missing.
+2026-04-21 00:08:25,997 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:25] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:26,223 - INFO - The CSRF token is missing.
+2026-04-21 00:08:26,224 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:26] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:29,469 - INFO - The CSRF token is missing.
+2026-04-21 00:08:29,470 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:29] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:29,626 - INFO - The CSRF token is missing.
+2026-04-21 00:08:29,626 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:29] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:29,784 - INFO - The CSRF token is missing.
+2026-04-21 00:08:29,785 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:29] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:29,912 - INFO - The CSRF token is missing.
+2026-04-21 00:08:29,912 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:29] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:30,063 - INFO - The CSRF token is missing.
+2026-04-21 00:08:30,064 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:30,220 - INFO - The CSRF token is missing.
+2026-04-21 00:08:30,222 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:30,722 - INFO - The CSRF token is missing.
+2026-04-21 00:08:30,722 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:30,932 - INFO - The CSRF token is missing.
+2026-04-21 00:08:30,933 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:31,088 - INFO - The CSRF token is missing.
+2026-04-21 00:08:31,089 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:31] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:08:31,269 - INFO - The CSRF token is missing.
+2026-04-21 00:08:31,269 - INFO - 127.0.0.1 - - [21/Apr/2026 00:08:31] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:09:06,995 - INFO - 127.0.0.1 - - [21/Apr/2026 00:09:06] "GET / HTTP/1.1" 200 -
+2026-04-21 00:09:08,491 - INFO - 127.0.0.1 - - [21/Apr/2026 00:09:08] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 00:09:12,236 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 00:09:12,236 - INFO - 127.0.0.1 - - [21/Apr/2026 00:09:12] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 00:09:12,242 - INFO - 127.0.0.1 - - [21/Apr/2026 00:09:12] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 00:14:25,176 - INFO - 127.0.0.1 - - [21/Apr/2026 00:14:25] "GET /admin/chapters/2 HTTP/1.1" 200 -
+2026-04-21 00:14:31,335 - INFO - 127.0.0.1 - - [21/Apr/2026 00:14:31] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 00:14:33,611 - INFO - 127.0.0.1 - - [21/Apr/2026 00:14:33] "GET /admin/chapters/1 HTTP/1.1" 200 -
+2026-04-21 00:14:36,424 - INFO - 127.0.0.1 - - [21/Apr/2026 00:14:36] "GET /admin/question_groups/1 HTTP/1.1" 200 -
+2026-04-21 00:17:11,186 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:11] "GET / HTTP/1.1" 200 -
+2026-04-21 00:17:12,723 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:12] "GET /exam HTTP/1.1" 200 -
+2026-04-21 00:17:15,509 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:15] "GET /api/topics/1 HTTP/1.1" 200 -
+2026-04-21 00:17:17,382 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:17] "GET /api/chapters/1 HTTP/1.1" 200 -
+2026-04-21 00:17:30,974 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:30] "POST /exam/start HTTP/1.1" 200 -
+2026-04-21 00:17:32,614 - INFO - The CSRF token is missing.
+2026-04-21 00:17:32,615 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:33,141 - INFO - The CSRF token is missing.
+2026-04-21 00:17:33,141 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:33] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:33,343 - INFO - The CSRF token is missing.
+2026-04-21 00:17:33,344 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:33] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:36,175 - INFO - The CSRF token is missing.
+2026-04-21 00:17:36,176 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:36] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:36,712 - INFO - The CSRF token is missing.
+2026-04-21 00:17:36,712 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:36] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:36,869 - INFO - The CSRF token is missing.
+2026-04-21 00:17:36,870 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:36] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:37,027 - INFO - The CSRF token is missing.
+2026-04-21 00:17:37,028 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:37] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:37,380 - INFO - The CSRF token is missing.
+2026-04-21 00:17:37,380 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:37] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:42,906 - INFO - The CSRF token is missing.
+2026-04-21 00:17:42,906 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:42] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:43,071 - INFO - The CSRF token is missing.
+2026-04-21 00:17:43,071 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:43] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:43,207 - INFO - The CSRF token is missing.
+2026-04-21 00:17:43,208 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:43] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:43,350 - INFO - The CSRF token is missing.
+2026-04-21 00:17:43,350 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:43] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:43,498 - INFO - The CSRF token is missing.
+2026-04-21 00:17:43,499 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:43] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:43,650 - INFO - The CSRF token is missing.
+2026-04-21 00:17:43,650 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:43] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:51,450 - INFO - The CSRF token is missing.
+2026-04-21 00:17:51,450 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:51] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:17:51,600 - INFO - The CSRF token is missing.
+2026-04-21 00:17:51,601 - INFO - 127.0.0.1 - - [21/Apr/2026 00:17:51] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:30,547 - INFO - The CSRF token is missing.
+2026-04-21 00:21:30,547 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:30,704 - INFO - The CSRF token is missing.
+2026-04-21 00:21:30,704 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:30,846 - INFO - The CSRF token is missing.
+2026-04-21 00:21:30,846 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:31,117 - INFO - The CSRF token is missing.
+2026-04-21 00:21:31,117 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:31] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:31,926 - INFO - The CSRF token is missing.
+2026-04-21 00:21:31,926 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:31] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:32,077 - INFO - The CSRF token is missing.
+2026-04-21 00:21:32,077 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:32,219 - INFO - The CSRF token is missing.
+2026-04-21 00:21:32,219 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:32,346 - INFO - The CSRF token is missing.
+2026-04-21 00:21:32,347 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:32,457 - INFO - The CSRF token is missing.
+2026-04-21 00:21:32,458 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:32,570 - INFO - The CSRF token is missing.
+2026-04-21 00:21:32,570 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:21:32,707 - INFO - The CSRF token is missing.
+2026-04-21 00:21:32,707 - INFO - 127.0.0.1 - - [21/Apr/2026 00:21:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:19,538 - INFO - The CSRF token is missing.
+2026-04-21 00:23:19,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:19] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:20,534 - INFO - The CSRF token is missing.
+2026-04-21 00:23:20,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:20] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:21,533 - INFO - The CSRF token is missing.
+2026-04-21 00:23:21,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:21] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:22,531 - INFO - The CSRF token is missing.
+2026-04-21 00:23:22,532 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:22] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:23,528 - INFO - The CSRF token is missing.
+2026-04-21 00:23:23,528 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:23] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:24,542 - INFO - The CSRF token is missing.
+2026-04-21 00:23:24,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:24] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:25,540 - INFO - The CSRF token is missing.
+2026-04-21 00:23:25,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:25] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:26,526 - INFO - The CSRF token is missing.
+2026-04-21 00:23:26,526 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:26] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:27,541 - INFO - The CSRF token is missing.
+2026-04-21 00:23:27,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:27] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:28,538 - INFO - The CSRF token is missing.
+2026-04-21 00:23:28,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:28] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:29,525 - INFO - The CSRF token is missing.
+2026-04-21 00:23:29,526 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:29] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:30,541 - INFO - The CSRF token is missing.
+2026-04-21 00:23:30,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:31,539 - INFO - The CSRF token is missing.
+2026-04-21 00:23:31,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:31] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:32,553 - INFO - The CSRF token is missing.
+2026-04-21 00:23:32,553 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:33,848 - INFO - The CSRF token is missing.
+2026-04-21 00:23:33,848 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:33] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:34,528 - INFO - The CSRF token is missing.
+2026-04-21 00:23:34,529 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:34] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:35,532 - INFO - The CSRF token is missing.
+2026-04-21 00:23:35,532 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:35] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:36,529 - INFO - The CSRF token is missing.
+2026-04-21 00:23:36,530 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:36] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:37,533 - INFO - The CSRF token is missing.
+2026-04-21 00:23:37,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:37] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:38,530 - INFO - The CSRF token is missing.
+2026-04-21 00:23:38,530 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:38] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:39,537 - INFO - The CSRF token is missing.
+2026-04-21 00:23:39,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:39] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:40,540 - INFO - The CSRF token is missing.
+2026-04-21 00:23:40,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:40] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:41,540 - INFO - The CSRF token is missing.
+2026-04-21 00:23:41,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:41] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:42,539 - INFO - The CSRF token is missing.
+2026-04-21 00:23:42,539 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:42] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:43,528 - INFO - The CSRF token is missing.
+2026-04-21 00:23:43,528 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:43] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:44,524 - INFO - The CSRF token is missing.
+2026-04-21 00:23:44,525 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:44] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:45,538 - INFO - The CSRF token is missing.
+2026-04-21 00:23:45,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:45] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:46,530 - INFO - The CSRF token is missing.
+2026-04-21 00:23:46,530 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:46] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:47,537 - INFO - The CSRF token is missing.
+2026-04-21 00:23:47,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:47] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:48,542 - INFO - The CSRF token is missing.
+2026-04-21 00:23:48,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:48] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:23:49,533 - INFO - The CSRF token is missing.
+2026-04-21 00:23:49,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:23:49] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:24:32,550 - INFO - The CSRF token is missing.
+2026-04-21 00:24:32,551 - INFO - 127.0.0.1 - - [21/Apr/2026 00:24:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:17,027 - INFO - The CSRF token is missing.
+2026-04-21 00:25:17,027 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:17] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:18,003 - INFO - The CSRF token is missing.
+2026-04-21 00:25:18,003 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:18] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:19,006 - INFO - The CSRF token is missing.
+2026-04-21 00:25:19,007 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:19] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:19,308 - INFO - The CSRF token is missing.
+2026-04-21 00:25:19,309 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:19] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:20,008 - INFO - The CSRF token is missing.
+2026-04-21 00:25:20,008 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:20] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:21,003 - INFO - The CSRF token is missing.
+2026-04-21 00:25:21,004 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:21] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:22,005 - INFO - The CSRF token is missing.
+2026-04-21 00:25:22,005 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:22] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:23,016 - INFO - The CSRF token is missing.
+2026-04-21 00:25:23,016 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:23] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:24,011 - INFO - The CSRF token is missing.
+2026-04-21 00:25:24,011 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:24] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:25,542 - INFO - The CSRF token is missing.
+2026-04-21 00:25:25,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:25] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:26,533 - INFO - The CSRF token is missing.
+2026-04-21 00:25:26,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:26] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:27,543 - INFO - The CSRF token is missing.
+2026-04-21 00:25:27,561 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:27] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:28,534 - INFO - The CSRF token is missing.
+2026-04-21 00:25:28,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:28] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:29,552 - INFO - The CSRF token is missing.
+2026-04-21 00:25:29,553 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:29] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:30,537 - INFO - The CSRF token is missing.
+2026-04-21 00:25:30,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:31,544 - INFO - The CSRF token is missing.
+2026-04-21 00:25:31,544 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:31] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:32,571 - INFO - The CSRF token is missing.
+2026-04-21 00:25:32,572 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:33,537 - INFO - The CSRF token is missing.
+2026-04-21 00:25:33,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:33] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:34,532 - INFO - The CSRF token is missing.
+2026-04-21 00:25:34,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:34] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:35,539 - INFO - The CSRF token is missing.
+2026-04-21 00:25:35,539 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:35] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:36,533 - INFO - The CSRF token is missing.
+2026-04-21 00:25:36,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:36] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:37,539 - INFO - The CSRF token is missing.
+2026-04-21 00:25:37,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:37] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:38,535 - INFO - The CSRF token is missing.
+2026-04-21 00:25:38,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:38] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:39,544 - INFO - The CSRF token is missing.
+2026-04-21 00:25:39,545 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:39] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:40,536 - INFO - The CSRF token is missing.
+2026-04-21 00:25:40,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:40] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:41,534 - INFO - The CSRF token is missing.
+2026-04-21 00:25:41,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:41] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:42,547 - INFO - The CSRF token is missing.
+2026-04-21 00:25:42,547 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:42] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:43,539 - INFO - The CSRF token is missing.
+2026-04-21 00:25:43,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:43] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:44,537 - INFO - The CSRF token is missing.
+2026-04-21 00:25:44,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:44] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:45,535 - INFO - The CSRF token is missing.
+2026-04-21 00:25:45,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:45] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:46,531 - INFO - The CSRF token is missing.
+2026-04-21 00:25:46,532 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:46] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:47,542 - INFO - The CSRF token is missing.
+2026-04-21 00:25:47,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:47] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:48,178 - INFO - The CSRF token is missing.
+2026-04-21 00:25:48,178 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:48] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:49,004 - INFO - The CSRF token is missing.
+2026-04-21 00:25:49,004 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:49] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:50,009 - INFO - The CSRF token is missing.
+2026-04-21 00:25:50,009 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:50] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:51,014 - INFO - The CSRF token is missing.
+2026-04-21 00:25:51,015 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:51] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:52,010 - INFO - The CSRF token is missing.
+2026-04-21 00:25:52,010 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:52] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:53,013 - INFO - The CSRF token is missing.
+2026-04-21 00:25:53,014 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:53] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:54,010 - INFO - The CSRF token is missing.
+2026-04-21 00:25:54,010 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:54] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:55,006 - INFO - The CSRF token is missing.
+2026-04-21 00:25:55,006 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:55] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:56,008 - INFO - The CSRF token is missing.
+2026-04-21 00:25:56,008 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:56] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:57,615 - INFO - The CSRF token is missing.
+2026-04-21 00:25:57,615 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:57] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:58,528 - INFO - The CSRF token is missing.
+2026-04-21 00:25:58,528 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:58] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:25:59,536 - INFO - The CSRF token is missing.
+2026-04-21 00:25:59,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:25:59] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:00,542 - INFO - The CSRF token is missing.
+2026-04-21 00:26:00,543 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:00] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:01,541 - INFO - The CSRF token is missing.
+2026-04-21 00:26:01,541 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:01] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:02,537 - INFO - The CSRF token is missing.
+2026-04-21 00:26:02,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:02] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:03,536 - INFO - The CSRF token is missing.
+2026-04-21 00:26:03,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:03] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:04,532 - INFO - The CSRF token is missing.
+2026-04-21 00:26:04,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:04] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:05,544 - INFO - The CSRF token is missing.
+2026-04-21 00:26:05,544 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:05] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:06,534 - INFO - The CSRF token is missing.
+2026-04-21 00:26:06,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:06] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:07,545 - INFO - The CSRF token is missing.
+2026-04-21 00:26:07,546 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:07] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:08,541 - INFO - The CSRF token is missing.
+2026-04-21 00:26:08,541 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:08] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:09,538 - INFO - The CSRF token is missing.
+2026-04-21 00:26:09,539 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:09] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:10,535 - INFO - The CSRF token is missing.
+2026-04-21 00:26:10,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:10] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:11,545 - INFO - The CSRF token is missing.
+2026-04-21 00:26:11,546 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:11] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:12,533 - INFO - The CSRF token is missing.
+2026-04-21 00:26:12,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:12] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:13,531 - INFO - The CSRF token is missing.
+2026-04-21 00:26:13,532 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:13] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:14,542 - INFO - The CSRF token is missing.
+2026-04-21 00:26:14,544 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:14] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:15,535 - INFO - The CSRF token is missing.
+2026-04-21 00:26:15,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:15] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:16,532 - INFO - The CSRF token is missing.
+2026-04-21 00:26:16,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:16] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:17,542 - INFO - The CSRF token is missing.
+2026-04-21 00:26:17,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:17] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:18,539 - INFO - The CSRF token is missing.
+2026-04-21 00:26:18,539 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:18] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:19,532 - INFO - The CSRF token is missing.
+2026-04-21 00:26:19,532 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:19] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:20,536 - INFO - The CSRF token is missing.
+2026-04-21 00:26:20,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:20] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:21,416 - INFO - The CSRF token is missing.
+2026-04-21 00:26:21,416 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:21] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:22,002 - INFO - The CSRF token is missing.
+2026-04-21 00:26:22,002 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:22] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:23,538 - INFO - The CSRF token is missing.
+2026-04-21 00:26:23,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:23] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:24,536 - INFO - The CSRF token is missing.
+2026-04-21 00:26:24,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:24] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:25,537 - INFO - The CSRF token is missing.
+2026-04-21 00:26:25,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:25] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:26,533 - INFO - The CSRF token is missing.
+2026-04-21 00:26:26,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:26] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:27,540 - INFO - The CSRF token is missing.
+2026-04-21 00:26:27,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:27] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:28,529 - INFO - The CSRF token is missing.
+2026-04-21 00:26:28,530 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:28] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:29,532 - INFO - The CSRF token is missing.
+2026-04-21 00:26:29,532 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:29] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:30,541 - INFO - The CSRF token is missing.
+2026-04-21 00:26:30,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:30] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:31,531 - INFO - The CSRF token is missing.
+2026-04-21 00:26:31,531 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:31] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:32,541 - INFO - The CSRF token is missing.
+2026-04-21 00:26:32,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:33,541 - INFO - The CSRF token is missing.
+2026-04-21 00:26:33,541 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:33] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:34,539 - INFO - The CSRF token is missing.
+2026-04-21 00:26:34,539 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:34] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:35,536 - INFO - The CSRF token is missing.
+2026-04-21 00:26:35,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:35] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:36,529 - INFO - The CSRF token is missing.
+2026-04-21 00:26:36,529 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:36] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:37,535 - INFO - The CSRF token is missing.
+2026-04-21 00:26:37,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:37] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:38,539 - INFO - The CSRF token is missing.
+2026-04-21 00:26:38,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:38] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:39,542 - INFO - The CSRF token is missing.
+2026-04-21 00:26:39,543 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:39] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:40,534 - INFO - The CSRF token is missing.
+2026-04-21 00:26:40,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:40] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:41,534 - INFO - The CSRF token is missing.
+2026-04-21 00:26:41,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:41] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:42,545 - INFO - The CSRF token is missing.
+2026-04-21 00:26:42,546 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:42] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:43,539 - INFO - The CSRF token is missing.
+2026-04-21 00:26:43,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:43] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:44,545 - INFO - The CSRF token is missing.
+2026-04-21 00:26:44,547 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:44] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:45,536 - INFO - The CSRF token is missing.
+2026-04-21 00:26:45,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:45] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:46,527 - INFO - The CSRF token is missing.
+2026-04-21 00:26:46,528 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:46] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:47,533 - INFO - The CSRF token is missing.
+2026-04-21 00:26:47,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:47] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:48,533 - INFO - The CSRF token is missing.
+2026-04-21 00:26:48,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:48] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:49,535 - INFO - The CSRF token is missing.
+2026-04-21 00:26:49,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:49] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:50,548 - INFO - The CSRF token is missing.
+2026-04-21 00:26:50,549 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:50] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:51,542 - INFO - The CSRF token is missing.
+2026-04-21 00:26:51,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:51] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:52,531 - INFO - The CSRF token is missing.
+2026-04-21 00:26:52,532 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:52] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:53,536 - INFO - The CSRF token is missing.
+2026-04-21 00:26:53,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:53] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:54,538 - INFO - The CSRF token is missing.
+2026-04-21 00:26:54,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:54] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:55,532 - INFO - The CSRF token is missing.
+2026-04-21 00:26:55,532 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:55] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:56,536 - INFO - The CSRF token is missing.
+2026-04-21 00:26:56,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:56] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:57,537 - INFO - The CSRF token is missing.
+2026-04-21 00:26:57,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:57] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:58,536 - INFO - The CSRF token is missing.
+2026-04-21 00:26:58,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:58] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:26:59,525 - INFO - The CSRF token is missing.
+2026-04-21 00:26:59,527 - INFO - 127.0.0.1 - - [21/Apr/2026 00:26:59] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:00,539 - INFO - The CSRF token is missing.
+2026-04-21 00:27:00,539 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:00] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:01,538 - INFO - The CSRF token is missing.
+2026-04-21 00:27:01,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:01] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:02,528 - INFO - The CSRF token is missing.
+2026-04-21 00:27:02,528 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:02] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:03,533 - INFO - The CSRF token is missing.
+2026-04-21 00:27:03,533 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:03] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:04,541 - INFO - The CSRF token is missing.
+2026-04-21 00:27:04,541 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:04] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:05,537 - INFO - The CSRF token is missing.
+2026-04-21 00:27:05,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:05] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:06,528 - INFO - The CSRF token is missing.
+2026-04-21 00:27:06,528 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:06] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:07,536 - INFO - The CSRF token is missing.
+2026-04-21 00:27:07,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:07] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:08,533 - INFO - The CSRF token is missing.
+2026-04-21 00:27:08,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:08] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:09,542 - INFO - The CSRF token is missing.
+2026-04-21 00:27:09,542 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:09] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:10,538 - INFO - The CSRF token is missing.
+2026-04-21 00:27:10,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:10] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:11,535 - INFO - The CSRF token is missing.
+2026-04-21 00:27:11,536 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:11] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:12,539 - INFO - The CSRF token is missing.
+2026-04-21 00:27:12,541 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:12] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:13,537 - INFO - The CSRF token is missing.
+2026-04-21 00:27:13,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:13] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:14,533 - INFO - The CSRF token is missing.
+2026-04-21 00:27:14,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:14] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:15,545 - INFO - The CSRF token is missing.
+2026-04-21 00:27:15,545 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:15] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:16,542 - INFO - The CSRF token is missing.
+2026-04-21 00:27:16,543 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:16] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:17,529 - INFO - The CSRF token is missing.
+2026-04-21 00:27:17,530 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:17] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:18,534 - INFO - The CSRF token is missing.
+2026-04-21 00:27:18,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:18] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:19,537 - INFO - The CSRF token is missing.
+2026-04-21 00:27:19,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:19] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:20,545 - INFO - The CSRF token is missing.
+2026-04-21 00:27:20,545 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:20] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:21,537 - INFO - The CSRF token is missing.
+2026-04-21 00:27:21,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:21] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:32,535 - INFO - The CSRF token is missing.
+2026-04-21 00:27:32,535 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:32] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:46,879 - INFO - The CSRF token is missing.
+2026-04-21 00:27:46,880 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:46] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:47,004 - INFO - The CSRF token is missing.
+2026-04-21 00:27:47,004 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:47] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:48,005 - INFO - The CSRF token is missing.
+2026-04-21 00:27:48,006 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:48] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:49,007 - INFO - The CSRF token is missing.
+2026-04-21 00:27:49,008 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:49] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:50,006 - INFO - The CSRF token is missing.
+2026-04-21 00:27:50,007 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:50] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:51,536 - INFO - The CSRF token is missing.
+2026-04-21 00:27:51,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:51] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:52,532 - INFO - The CSRF token is missing.
+2026-04-21 00:27:52,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:52] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:53,536 - INFO - The CSRF token is missing.
+2026-04-21 00:27:53,537 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:53] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:54,540 - INFO - The CSRF token is missing.
+2026-04-21 00:27:54,541 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:54] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:55,541 - INFO - The CSRF token is missing.
+2026-04-21 00:27:55,541 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:55] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:56,529 - INFO - The CSRF token is missing.
+2026-04-21 00:27:56,530 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:56] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:57,540 - INFO - The CSRF token is missing.
+2026-04-21 00:27:57,540 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:57] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:58,542 - INFO - The CSRF token is missing.
+2026-04-21 00:27:58,543 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:58] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:27:59,548 - INFO - The CSRF token is missing.
+2026-04-21 00:27:59,548 - INFO - 127.0.0.1 - - [21/Apr/2026 00:27:59] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:00,541 - INFO - The CSRF token is missing.
+2026-04-21 00:28:00,541 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:00] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:01,538 - INFO - The CSRF token is missing.
+2026-04-21 00:28:01,538 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:01] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:02,533 - INFO - The CSRF token is missing.
+2026-04-21 00:28:02,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:02] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:03,545 - INFO - The CSRF token is missing.
+2026-04-21 00:28:03,545 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:03] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:04,533 - INFO - The CSRF token is missing.
+2026-04-21 00:28:04,534 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:04] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:05,202 - INFO - The CSRF token is missing.
+2026-04-21 00:28:05,202 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:05] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:06,002 - INFO - The CSRF token is missing.
+2026-04-21 00:28:06,002 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:06] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:07,005 - INFO - The CSRF token is missing.
+2026-04-21 00:28:07,006 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:07] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:07,964 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:07] "POST /exam/start HTTP/1.1" 200 -
+2026-04-21 00:28:10,029 - INFO - The CSRF token is missing.
+2026-04-21 00:28:10,029 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:10] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:28:14,173 - INFO - The CSRF token is missing.
+2026-04-21 00:28:14,173 - INFO - 127.0.0.1 - - [21/Apr/2026 00:28:14] "[31m[1mPOST /exam/submit HTTP/1.1[0m" 400 -
+2026-04-21 00:29:46,388 - INFO - 127.0.0.1 - - [21/Apr/2026 00:29:46] "POST /exam/start HTTP/1.1" 200 -
+2026-04-21 00:29:51,434 - INFO - 127.0.0.1 - - [21/Apr/2026 00:29:51] "POST /exam/start HTTP/1.1" 200 -
+2026-04-21 00:29:54,582 - INFO - 127.0.0.1 - - [21/Apr/2026 00:29:54] "POST /exam/submit HTTP/1.1" 200 -
+2026-04-21 00:30:11,240 - INFO - 127.0.0.1 - - [21/Apr/2026 00:30:11] "GET / HTTP/1.1" 200 -
+2026-04-21 00:31:46,797 - INFO - 127.0.0.1 - - [21/Apr/2026 00:31:46] "GET / HTTP/1.1" 200 -
+2026-04-21 00:31:53,676 - INFO - 127.0.0.1 - - [21/Apr/2026 00:31:53] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 00:32:15,358 - INFO - 127.0.0.1 - - [21/Apr/2026 00:32:15] "GET / HTTP/1.1" 200 -
+2026-04-21 21:22:56,716 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.4:5000
+2026-04-21 21:22:56,717 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 21:24:23,341 - INFO - 127.0.0.1 - - [21/Apr/2026 21:24:23] "GET / HTTP/1.1" 200 -
+2026-04-21 21:24:23,475 - INFO - 127.0.0.1 - - [21/Apr/2026 21:24:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-21 21:25:21,596 - INFO - 127.0.0.1 - - [21/Apr/2026 21:25:21] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 21:28:27,467 - INFO - 127.0.0.1 - - [21/Apr/2026 21:28:27] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 21:28:53,264 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 21:28:53,264 - INFO - 127.0.0.1 - - [21/Apr/2026 21:28:53] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 21:28:53,295 - INFO - 127.0.0.1 - - [21/Apr/2026 21:28:53] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 21:41:08,345 - INFO - 127.0.0.1 - - [21/Apr/2026 21:41:08] "GET /admin/chapters/2 HTTP/1.1" 200 -
+2026-04-21 21:41:10,562 - INFO - 127.0.0.1 - - [21/Apr/2026 21:41:10] "GET / HTTP/1.1" 200 -
+2026-04-21 21:41:15,886 - INFO - 127.0.0.1 - - [21/Apr/2026 21:41:15] "GET /review HTTP/1.1" 200 -
+2026-04-21 21:41:19,291 - INFO - 127.0.0.1 - - [21/Apr/2026 21:41:19] "GET / HTTP/1.1" 200 -
+2026-04-21 21:41:20,883 - INFO - 127.0.0.1 - - [21/Apr/2026 21:41:20] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 21:41:24,441 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 21:41:24,442 - INFO - 127.0.0.1 - - [21/Apr/2026 21:41:24] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 21:41:24,448 - INFO - 127.0.0.1 - - [21/Apr/2026 21:41:24] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 21:45:49,499 - INFO - 127.0.0.1 - - [21/Apr/2026 21:45:49] "GET / HTTP/1.1" 200 -
+2026-04-21 21:45:51,810 - INFO - 127.0.0.1 - - [21/Apr/2026 21:45:51] "GET /review HTTP/1.1" 200 -
+2026-04-21 21:45:55,324 - INFO - 127.0.0.1 - - [21/Apr/2026 21:45:55] "GET /api/topics/1 HTTP/1.1" 200 -
+2026-04-21 21:45:56,874 - INFO - 127.0.0.1 - - [21/Apr/2026 21:45:56] "GET /api/chapters/2 HTTP/1.1" 200 -
+2026-04-21 21:46:04,475 - INFO - 127.0.0.1 - - [21/Apr/2026 21:46:04] "GET / HTTP/1.1" 200 -
+2026-04-21 21:46:05,579 - INFO - 127.0.0.1 - - [21/Apr/2026 21:46:05] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 21:46:11,336 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 21:46:11,337 - INFO - 127.0.0.1 - - [21/Apr/2026 21:46:11] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 21:46:11,343 - INFO - 127.0.0.1 - - [21/Apr/2026 21:46:11] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 21:58:09,452 - INFO - 127.0.0.1 - - [21/Apr/2026 21:58:09] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-21 21:59:16,021 - INFO - 127.0.0.1 - - [21/Apr/2026 21:59:16] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-21 21:59:23,375 - INFO - 127.0.0.1 - - [21/Apr/2026 21:59:23] "GET /admin/chapters/3 HTTP/1.1" 200 -
+2026-04-21 21:59:34,360 - INFO - 127.0.0.1 - - [21/Apr/2026 21:59:34] "GET / HTTP/1.1" 200 -
+2026-04-21 21:59:36,928 - INFO - 127.0.0.1 - - [21/Apr/2026 21:59:36] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 21:59:40,490 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 21:59:40,491 - INFO - 127.0.0.1 - - [21/Apr/2026 21:59:40] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 21:59:40,497 - INFO - 127.0.0.1 - - [21/Apr/2026 21:59:40] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 22:01:35,452 - INFO - 127.0.0.1 - - [21/Apr/2026 22:01:35] "GET /admin/chapters/3 HTTP/1.1" 200 -
+2026-04-21 22:03:40,191 - INFO - 127.0.0.1 - - [21/Apr/2026 22:03:40] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 22:04:54,062 - INFO - 127.0.0.1 - - [21/Apr/2026 22:04:54] "GET /admin/chapters/3 HTTP/1.1" 200 -
+2026-04-21 22:07:20,882 - INFO - 127.0.0.1 - - [21/Apr/2026 22:07:20] "POST /admin/chapters/3 HTTP/1.1" 200 -
+2026-04-21 22:07:26,092 - INFO - 127.0.0.1 - - [21/Apr/2026 22:07:26] "GET /admin/question_groups/2 HTTP/1.1" 200 -
+2026-04-21 22:07:45,929 - INFO - 127.0.0.1 - - [21/Apr/2026 22:07:45] "POST /admin/question_groups/2 HTTP/1.1" 200 -
+2026-04-21 22:07:50,014 - INFO - 127.0.0.1 - - [21/Apr/2026 22:07:50] "GET /admin/questions/3 HTTP/1.1" 200 -
+2026-04-21 22:12:44,228 - INFO - 127.0.0.1 - - [21/Apr/2026 22:12:44] "GET / HTTP/1.1" 200 -
+2026-04-21 22:12:46,765 - INFO - 127.0.0.1 - - [21/Apr/2026 22:12:46] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 22:14:13,923 - INFO - 127.0.0.1 - - [21/Apr/2026 22:14:13] "POST /admin/questions/3 HTTP/1.1" 200 -
+2026-04-21 22:17:20,212 - INFO - 127.0.0.1 - - [21/Apr/2026 22:17:20] "GET / HTTP/1.1" 200 -
+2026-04-21 22:17:22,651 - INFO - 127.0.0.1 - - [21/Apr/2026 22:17:22] "GET /review HTTP/1.1" 200 -
+2026-04-21 22:17:25,077 - INFO - 127.0.0.1 - - [21/Apr/2026 22:17:25] "GET /api/topics/2 HTTP/1.1" 200 -
+2026-04-21 22:17:26,676 - INFO - 127.0.0.1 - - [21/Apr/2026 22:17:26] "GET /api/chapters/3 HTTP/1.1" 200 -
+2026-04-21 22:17:36,617 - INFO - 127.0.0.1 - - [21/Apr/2026 22:17:36] "POST /review/start HTTP/1.1" 200 -
+2026-04-21 22:17:54,757 - INFO - 127.0.0.1 - - [21/Apr/2026 22:17:54] "GET / HTTP/1.1" 200 -
+2026-04-21 22:17:55,834 - INFO - 127.0.0.1 - - [21/Apr/2026 22:17:55] "GET /exam HTTP/1.1" 200 -
+2026-04-21 22:18:00,119 - INFO - 127.0.0.1 - - [21/Apr/2026 22:18:00] "GET / HTTP/1.1" 200 -
+2026-04-21 22:18:01,504 - INFO - 127.0.0.1 - - [21/Apr/2026 22:18:01] "GET /review HTTP/1.1" 200 -
+2026-04-21 22:18:07,010 - INFO - 127.0.0.1 - - [21/Apr/2026 22:18:07] "GET / HTTP/1.1" 200 -
+2026-04-21 22:18:07,785 - INFO - 127.0.0.1 - - [21/Apr/2026 22:18:07] "GET /review HTTP/1.1" 200 -
+2026-04-21 22:18:10,273 - INFO - 127.0.0.1 - - [21/Apr/2026 22:18:10] "GET / HTTP/1.1" 200 -
+2026-04-21 22:18:12,024 - INFO - 127.0.0.1 - - [21/Apr/2026 22:18:12] "GET /exam HTTP/1.1" 200 -
+2026-04-21 22:18:23,586 - INFO - 127.0.0.1 - - [21/Apr/2026 22:18:23] "GET / HTTP/1.1" 200 -
+2026-04-21 22:19:54,925 - INFO - 127.0.0.1 - - [21/Apr/2026 22:19:54] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 22:19:56,156 - INFO - 127.0.0.1 - - [21/Apr/2026 22:19:56] "GET /admin/change-password HTTP/1.1" 200 -
+2026-04-21 22:20:25,521 - INFO - Admin password changed: IP=127.0.0.1
+2026-04-21 22:20:25,522 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:25] "POST /admin/change-password HTTP/1.1" 200 -
+2026-04-21 22:20:27,097 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:27] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 22:20:34,511 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 22:20:34,512 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:34] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 22:20:34,519 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:34] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 22:20:39,022 - INFO - Admin logout: IP=127.0.0.1
+2026-04-21 22:20:39,022 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:39] "[32mGET /admin/logout HTTP/1.1[0m" 302 -
+2026-04-21 22:20:39,031 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:39] "GET / HTTP/1.1" 200 -
+2026-04-21 22:20:41,424 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:41] "GET / HTTP/1.1" 200 -
+2026-04-21 22:20:42,305 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:42] "GET / HTTP/1.1" 200 -
+2026-04-21 22:20:42,464 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:42] "GET / HTTP/1.1" 200 -
+2026-04-21 22:20:42,648 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:42] "GET / HTTP/1.1" 200 -
+2026-04-21 22:20:43,893 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:43] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 22:20:56,541 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 22:20:56,542 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:56] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 22:20:56,549 - INFO - 127.0.0.1 - - [21/Apr/2026 22:20:56] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-21 22:21:18,410 - INFO - Admin logout: IP=127.0.0.1
+2026-04-21 22:21:18,410 - INFO - 127.0.0.1 - - [21/Apr/2026 22:21:18] "[32mGET /admin/logout HTTP/1.1[0m" 302 -
+2026-04-21 22:21:18,417 - INFO - 127.0.0.1 - - [21/Apr/2026 22:21:18] "GET / HTTP/1.1" 200 -
+2026-04-21 22:21:19,256 - INFO - 127.0.0.1 - - [21/Apr/2026 22:21:19] "GET /exam HTTP/1.1" 200 -
+2026-04-21 22:21:22,442 - INFO - 127.0.0.1 - - [21/Apr/2026 22:21:22] "GET /api/topics/1 HTTP/1.1" 200 -
+2026-04-21 22:21:24,416 - INFO - 127.0.0.1 - - [21/Apr/2026 22:21:24] "GET /api/chapters/1 HTTP/1.1" 200 -
+2026-04-21 22:22:17,580 - INFO - 127.0.0.1 - - [21/Apr/2026 22:22:17] "POST /exam/start HTTP/1.1" 200 -
+2026-04-21 22:22:28,573 - INFO - 127.0.0.1 - - [21/Apr/2026 22:22:28] "POST /exam/submit HTTP/1.1" 200 -
+2026-04-21 22:22:47,454 - INFO - 127.0.0.1 - - [21/Apr/2026 22:22:47] "GET / HTTP/1.1" 200 -
+2026-04-21 22:22:48,639 - INFO - 127.0.0.1 - - [21/Apr/2026 22:22:48] "GET /exam HTTP/1.1" 200 -
+2026-04-21 22:23:02,984 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:02] "GET /api/topics/1 HTTP/1.1" 200 -
+2026-04-21 22:23:04,816 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:04] "GET /api/chapters/2 HTTP/1.1" 200 -
+2026-04-21 22:23:09,521 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:09] "GET /api/chapters/1 HTTP/1.1" 200 -
+2026-04-21 22:23:24,554 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:24] "POST /exam/start HTTP/1.1" 200 -
+2026-04-21 22:23:34,049 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:34] "POST /exam/submit HTTP/1.1" 200 -
+2026-04-21 22:23:37,908 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:37] "GET / HTTP/1.1" 200 -
+2026-04-21 22:23:38,814 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:38] "GET /exam HTTP/1.1" 200 -
+2026-04-21 22:23:40,829 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:40] "GET /api/topics/1 HTTP/1.1" 200 -
+2026-04-21 22:23:42,075 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:42] "GET /api/chapters/1 HTTP/1.1" 200 -
+2026-04-21 22:23:48,580 - INFO - 127.0.0.1 - - [21/Apr/2026 22:23:48] "POST /exam/start HTTP/1.1" 200 -
+2026-04-21 22:41:20,604 - INFO - 127.0.0.1 - - [21/Apr/2026 22:41:20] "POST /exam/submit HTTP/1.1" 200 -
+2026-04-21 22:41:36,640 - INFO - 127.0.0.1 - - [21/Apr/2026 22:41:36] "GET / HTTP/1.1" 200 -
+2026-04-21 22:42:18,421 - INFO - 127.0.0.1 - - [21/Apr/2026 22:42:18] "GET /admin/login HTTP/1.1" 200 -
+2026-04-21 22:42:57,536 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-21 22:42:57,538 - INFO - 127.0.0.1 - - [21/Apr/2026 22:42:57] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-21 22:42:57,546 - INFO - 127.0.0.1 - - [21/Apr/2026 22:42:57] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-22 20:14:00,949 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.4:5000
+2026-04-22 20:14:00,949 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-22 20:14:05,841 - INFO - 127.0.0.1 - - [22/Apr/2026 20:14:05] "[32mGET /admin/subjects HTTP/1.1[0m" 302 -
+2026-04-22 20:14:05,870 - INFO - 127.0.0.1 - - [22/Apr/2026 20:14:05] "GET /admin/login HTTP/1.1" 200 -
+2026-04-22 20:14:05,988 - INFO - 127.0.0.1 - - [22/Apr/2026 20:14:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-22 20:14:11,876 - INFO - 127.0.0.1 - - [22/Apr/2026 20:14:11] "GET / HTTP/1.1" 200 -
+2026-04-22 20:16:46,541 - INFO - 127.0.0.1 - - [22/Apr/2026 20:16:46] "GET /review HTTP/1.1" 200 -
+2026-04-22 20:19:28,300 - INFO - 127.0.0.1 - - [22/Apr/2026 20:19:28] "GET /review HTTP/1.1" 200 -
+2026-04-22 20:19:33,829 - INFO - 127.0.0.1 - - [22/Apr/2026 20:19:33] "GET / HTTP/1.1" 200 -
+2026-04-22 20:20:19,414 - INFO - 127.0.0.1 - - [22/Apr/2026 20:20:19] "GET /review HTTP/1.1" 200 -
+2026-04-22 20:20:22,403 - INFO - 127.0.0.1 - - [22/Apr/2026 20:20:22] "GET /api/topics/2 HTTP/1.1" 200 -
+2026-04-22 20:20:23,819 - INFO - 127.0.0.1 - - [22/Apr/2026 20:20:23] "GET /api/chapters/3 HTTP/1.1" 200 -
+2026-04-22 20:20:27,849 - INFO - 127.0.0.1 - - [22/Apr/2026 20:20:27] "POST /review/start HTTP/1.1" 200 -
+2026-04-22 20:20:35,291 - INFO - 127.0.0.1 - - [22/Apr/2026 20:20:35] "GET / HTTP/1.1" 200 -
+2026-04-22 20:20:37,544 - INFO - 127.0.0.1 - - [22/Apr/2026 20:20:37] "GET /exam HTTP/1.1" 200 -
+2026-04-22 20:22:32,673 - INFO - 127.0.0.1 - - [22/Apr/2026 20:22:32] "GET /exam HTTP/1.1" 200 -
+2026-04-22 21:08:05,381 - INFO - 127.0.0.1 - - [22/Apr/2026 21:08:05] "GET / HTTP/1.1" 200 -
+2026-04-22 21:22:45,550 - INFO - 127.0.0.1 - - [22/Apr/2026 21:22:45] "GET /review HTTP/1.1" 200 -
+2026-04-22 21:23:00,199 - INFO - 127.0.0.1 - - [22/Apr/2026 21:23:00] "GET / HTTP/1.1" 200 -
+2026-04-22 21:23:01,128 - INFO - 127.0.0.1 - - [22/Apr/2026 21:23:01] "GET /review HTTP/1.1" 200 -
+2026-04-22 21:23:02,614 - INFO - 127.0.0.1 - - [22/Apr/2026 21:23:02] "GET / HTTP/1.1" 200 -
+2026-04-22 21:23:03,471 - INFO - 127.0.0.1 - - [22/Apr/2026 21:23:03] "GET /admin/login HTTP/1.1" 200 -
+2026-04-22 21:23:08,055 - INFO - Admin login FAILED: IP=127.0.0.1
+2026-04-22 21:23:08,057 - INFO - 127.0.0.1 - - [22/Apr/2026 21:23:08] "POST /admin/login HTTP/1.1" 200 -
+2026-04-22 21:23:22,913 - INFO - Admin login FAILED: IP=127.0.0.1
+2026-04-22 21:23:22,914 - INFO - 127.0.0.1 - - [22/Apr/2026 21:23:22] "POST /admin/login HTTP/1.1" 200 -
+2026-04-22 21:23:28,928 - INFO - Admin login SUCCESS: IP=127.0.0.1
+2026-04-22 21:23:28,930 - INFO - 127.0.0.1 - - [22/Apr/2026 21:23:28] "[32mPOST /admin/login HTTP/1.1[0m" 302 -
+2026-04-22 21:23:28,946 - INFO - 127.0.0.1 - - [22/Apr/2026 21:23:28] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:27:47,636 - INFO - 127.0.0.1 - - [22/Apr/2026 21:27:47] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:27:50,336 - INFO - 127.0.0.1 - - [22/Apr/2026 21:27:50] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:27:54,704 - INFO - 127.0.0.1 - - [22/Apr/2026 21:27:54] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:27:58,759 - INFO - 127.0.0.1 - - [22/Apr/2026 21:27:58] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:28:00,727 - INFO - 127.0.0.1 - - [22/Apr/2026 21:28:00] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:28:40,544 - INFO - 127.0.0.1 - - [22/Apr/2026 21:28:40] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:29:07,353 - INFO - 127.0.0.1 - - [22/Apr/2026 21:29:07] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:29:09,432 - INFO - 127.0.0.1 - - [22/Apr/2026 21:29:09] "GET /admin/chapters/4 HTTP/1.1" 200 -
+2026-04-22 21:29:24,776 - INFO - 127.0.0.1 - - [22/Apr/2026 21:29:24] "POST /admin/chapters/4 HTTP/1.1" 200 -
+2026-04-22 21:29:29,740 - INFO - 127.0.0.1 - - [22/Apr/2026 21:29:29] "GET /admin/question_groups/3 HTTP/1.1" 200 -
+2026-04-22 21:29:53,004 - INFO - 127.0.0.1 - - [22/Apr/2026 21:29:53] "POST /admin/question_groups/3 HTTP/1.1" 200 -
+2026-04-22 21:29:54,740 - INFO - 127.0.0.1 - - [22/Apr/2026 21:29:54] "GET /admin/questions/4 HTTP/1.1" 200 -
+2026-04-22 21:30:38,585 - INFO - 127.0.0.1 - - [22/Apr/2026 21:30:38] "POST /admin/questions/4 HTTP/1.1" 200 -
+2026-04-22 21:30:49,888 - INFO - 127.0.0.1 - - [22/Apr/2026 21:30:49] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:31:28,297 - INFO - 127.0.0.1 - - [22/Apr/2026 21:31:28] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:31:37,436 - INFO - 127.0.0.1 - - [22/Apr/2026 21:31:37] "GET /admin/chapters/5 HTTP/1.1" 200 -
+2026-04-22 21:32:05,431 - INFO - 127.0.0.1 - - [22/Apr/2026 21:32:05] "POST /admin/chapters/5 HTTP/1.1" 200 -
+2026-04-22 21:32:06,896 - INFO - 127.0.0.1 - - [22/Apr/2026 21:32:06] "GET /admin/question_groups/4 HTTP/1.1" 200 -
+2026-04-22 21:32:12,990 - INFO - 127.0.0.1 - - [22/Apr/2026 21:32:12] "POST /admin/question_groups/4 HTTP/1.1" 200 -
+2026-04-22 21:32:14,240 - INFO - 127.0.0.1 - - [22/Apr/2026 21:32:14] "GET /admin/questions/5 HTTP/1.1" 200 -
+2026-04-22 21:33:12,013 - INFO - 127.0.0.1 - - [22/Apr/2026 21:33:12] "POST /admin/questions/5 HTTP/1.1" 200 -
+2026-04-22 21:33:20,679 - INFO - 127.0.0.1 - - [22/Apr/2026 21:33:20] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:33:33,050 - INFO - 127.0.0.1 - - [22/Apr/2026 21:33:33] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:33:34,705 - INFO - 127.0.0.1 - - [22/Apr/2026 21:33:34] "GET /admin/chapters/6 HTTP/1.1" 200 -
+2026-04-22 21:33:54,363 - INFO - 127.0.0.1 - - [22/Apr/2026 21:33:54] "POST /admin/chapters/6 HTTP/1.1" 200 -
+2026-04-22 21:33:55,453 - INFO - 127.0.0.1 - - [22/Apr/2026 21:33:55] "GET /admin/question_groups/5 HTTP/1.1" 200 -
+2026-04-22 21:34:00,718 - INFO - 127.0.0.1 - - [22/Apr/2026 21:34:00] "POST /admin/question_groups/5 HTTP/1.1" 200 -
+2026-04-22 21:34:02,013 - INFO - 127.0.0.1 - - [22/Apr/2026 21:34:02] "GET /admin/questions/6 HTTP/1.1" 200 -
+2026-04-22 21:34:49,781 - INFO - 127.0.0.1 - - [22/Apr/2026 21:34:49] "POST /admin/questions/6 HTTP/1.1" 200 -
+2026-04-22 21:35:00,891 - INFO - 127.0.0.1 - - [22/Apr/2026 21:35:00] "GET /api/question/7 HTTP/1.1" 200 -
+2026-04-22 21:35:09,325 - INFO - 127.0.0.1 - - [22/Apr/2026 21:35:09] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:35:30,329 - INFO - 127.0.0.1 - - [22/Apr/2026 21:35:30] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:35:33,368 - INFO - 127.0.0.1 - - [22/Apr/2026 21:35:33] "GET /admin/chapters/7 HTTP/1.1" 200 -
+2026-04-22 21:35:41,896 - INFO - 127.0.0.1 - - [22/Apr/2026 21:35:41] "POST /admin/chapters/7 HTTP/1.1" 200 -
+2026-04-22 21:35:44,536 - INFO - 127.0.0.1 - - [22/Apr/2026 21:35:44] "GET /admin/question_groups/6 HTTP/1.1" 200 -
+2026-04-22 21:35:57,524 - INFO - 127.0.0.1 - - [22/Apr/2026 21:35:57] "POST /admin/question_groups/6 HTTP/1.1" 200 -
+2026-04-22 21:36:29,288 - INFO - 127.0.0.1 - - [22/Apr/2026 21:36:29] "GET /admin/questions/7 HTTP/1.1" 200 -
+2026-04-22 21:37:20,402 - INFO - 127.0.0.1 - - [22/Apr/2026 21:37:20] "POST /admin/questions/7 HTTP/1.1" 200 -
+2026-04-22 21:37:29,760 - INFO - 127.0.0.1 - - [22/Apr/2026 21:37:29] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:37:37,804 - INFO - 127.0.0.1 - - [22/Apr/2026 21:37:37] "POST /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:37:42,793 - INFO - 127.0.0.1 - - [22/Apr/2026 21:37:42] "GET /admin/chapters/8 HTTP/1.1" 200 -
+2026-04-22 21:37:57,314 - INFO - 127.0.0.1 - - [22/Apr/2026 21:37:57] "POST /admin/chapters/8 HTTP/1.1" 200 -
+2026-04-22 21:37:59,137 - INFO - 127.0.0.1 - - [22/Apr/2026 21:37:59] "GET /admin/question_groups/7 HTTP/1.1" 200 -
+2026-04-22 21:38:07,176 - INFO - 127.0.0.1 - - [22/Apr/2026 21:38:07] "POST /admin/question_groups/7 HTTP/1.1" 200 -
+2026-04-22 21:38:11,307 - INFO - 127.0.0.1 - - [22/Apr/2026 21:38:11] "GET /admin/questions/8 HTTP/1.1" 200 -
+2026-04-22 21:39:20,377 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:20] "POST /admin/questions/8 HTTP/1.1" 200 -
+2026-04-22 21:39:22,867 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:22] "GET /admin/subjects HTTP/1.1" 200 -
+2026-04-22 21:39:25,939 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:25] "GET / HTTP/1.1" 200 -
+2026-04-22 21:39:29,309 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:29] "GET /review HTTP/1.1" 200 -
+2026-04-22 21:39:31,190 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:31] "GET /api/topics/3 HTTP/1.1" 200 -
+2026-04-22 21:39:33,556 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:33] "GET /api/chapters/4 HTTP/1.1" 200 -
+2026-04-22 21:39:35,925 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:35] "POST /review/start HTTP/1.1" 200 -
+2026-04-22 21:39:56,846 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:56] "GET / HTTP/1.1" 200 -
+2026-04-22 21:39:58,017 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:58] "GET /review HTTP/1.1" 200 -
+2026-04-22 21:39:59,344 - INFO - 127.0.0.1 - - [22/Apr/2026 21:39:59] "GET /api/topics/3 HTTP/1.1" 200 -
+2026-04-22 21:40:04,056 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:04] "GET /api/chapters/8 HTTP/1.1" 200 -
+2026-04-22 21:40:07,127 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:07] "POST /review/start HTTP/1.1" 200 -
+2026-04-22 21:40:15,064 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:15] "GET / HTTP/1.1" 200 -
+2026-04-22 21:40:15,995 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:15] "GET /review HTTP/1.1" 200 -
+2026-04-22 21:40:20,131 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:20] "GET /api/topics/3 HTTP/1.1" 200 -
+2026-04-22 21:40:22,155 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:22] "GET /api/chapters/4 HTTP/1.1" 200 -
+2026-04-22 21:40:32,651 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:32] "POST /review/start HTTP/1.1" 200 -
+2026-04-22 21:40:48,092 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:48] "GET / HTTP/1.1" 200 -
+2026-04-22 21:40:49,127 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:49] "GET /review HTTP/1.1" 200 -
+2026-04-22 21:40:50,631 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:50] "GET /api/topics/3 HTTP/1.1" 200 -
+2026-04-22 21:40:52,141 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:52] "GET /api/chapters/8 HTTP/1.1" 200 -
+2026-04-22 21:40:53,443 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:53] "POST /review/start HTTP/1.1" 200 -
+2026-04-22 21:40:59,727 - INFO - 127.0.0.1 - - [22/Apr/2026 21:40:59] "GET / HTTP/1.1" 200 -
+2026-04-22 21:41:00,608 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:00] "GET /review HTTP/1.1" 200 -
+2026-04-22 21:41:02,489 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:02] "GET /api/topics/3 HTTP/1.1" 200 -
+2026-04-22 21:41:08,096 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:08] "GET /api/chapters/4 HTTP/1.1" 200 -
+2026-04-22 21:41:09,783 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:09] "POST /review/start HTTP/1.1" 200 -
+2026-04-22 21:41:18,993 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:18] "GET / HTTP/1.1" 200 -
+2026-04-22 21:41:48,623 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:48] "GET /exam HTTP/1.1" 200 -
+2026-04-22 21:41:49,886 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:49] "GET /api/topics/3 HTTP/1.1" 200 -
+2026-04-22 21:41:53,765 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:53] "GET /api/chapters/8 HTTP/1.1" 200 -
+2026-04-22 21:41:57,078 - INFO - 127.0.0.1 - - [22/Apr/2026 21:41:57] "GET /api/chapters/4 HTTP/1.1" 200 -
+2026-04-22 21:42:00,118 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:00] "POST /exam/start HTTP/1.1" 200 -
+2026-04-22 21:42:03,965 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:03] "POST /exam/submit HTTP/1.1" 200 -
+2026-04-22 21:42:16,614 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:16] "GET / HTTP/1.1" 200 -
+2026-04-22 21:42:17,554 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:17] "GET /exam HTTP/1.1" 200 -
+2026-04-22 21:42:18,737 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:18] "GET /api/topics/3 HTTP/1.1" 200 -
+2026-04-22 21:42:21,289 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:21] "GET /api/chapters/4 HTTP/1.1" 200 -
+2026-04-22 21:42:26,529 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:26] "POST /exam/start HTTP/1.1" 200 -
+2026-04-22 21:42:31,680 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:31] "POST /exam/submit HTTP/1.1" 200 -
+2026-04-22 21:42:32,384 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:32] "GET / HTTP/1.1" 200 -
+2026-04-22 21:42:33,635 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:33] "GET /exam HTTP/1.1" 200 -
+2026-04-22 21:42:39,435 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:39] "GET /api/topics/3 HTTP/1.1" 200 -
+2026-04-22 21:42:41,364 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:41] "GET /api/chapters/4 HTTP/1.1" 200 -
+2026-04-22 21:42:50,627 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:50] "POST /exam/start HTTP/1.1" 200 -
+2026-04-22 21:42:56,178 - INFO - 127.0.0.1 - - [22/Apr/2026 21:42:56] "POST /exam/submit HTTP/1.1" 200 -
+2026-04-22 21:43:09,918 - INFO - 127.0.0.1 - - [22/Apr/2026 21:43:09] "GET / HTTP/1.1" 200 -
+2026-04-22 21:51:12,788 - INFO - 127.0.0.1 - - [22/Apr/2026 21:51:12] "GET /exam HTTP/1.1" 200 -
+2026-04-22 21:51:19,421 - INFO - 127.0.0.1 - - [22/Apr/2026 21:51:19] "GET / HTTP/1.1" 200 -
+2026-04-22 21:51:21,811 - INFO - 127.0.0.1 - - [22/Apr/2026 21:51:21] "GET /review HTTP/1.1" 200 -
+2026-04-22 21:51:22,914 - INFO - 127.0.0.1 - - [22/Apr/2026 21:51:22] "GET / HTTP/1.1" 200 -
+2026-04-22 21:51:23,411 - INFO - 127.0.0.1 - - [22/Apr/2026 21:51:23] "GET /exam HTTP/1.1" 200 -
+2026-04-22 21:53:34,957 - INFO - 127.0.0.1 - - [22/Apr/2026 21:53:34] "GET / HTTP/1.1" 200 -
